@@ -1,0 +1,39 @@
+.row {
+  display: flex;
+  align-items: stretch;
+}
+
+.row .label {
+  flex: 0 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row .container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.row .dish {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pasta {
+  flex-basis: 35%;
+  background: red;
+  color: white;
+}
+
+.pizza {
+  flex-basis: 50%;
+  background: blue;
+  color: white;
+}
+
+.burito {
+  flex-basis: 15%;
+  color: white;
+  background: green;
+}
